@@ -22,19 +22,24 @@ it as a remote speaker in Mac OS X (`System Preferences` > `Sound` > `Output`),
 and connecting to it via any UPnP streamer such as [BubbleUPnP for
 Android](https://play.google.com/store/apps/details?id=com.bubblesoft.android.bubbleupnp).
 
-Tested On
+If you find that the volume is too quiet you can login to the Pi and enter
+`alsamixer` then use the up and down arrows to adjust the volume
+(I'd recommend not going over 90% otherwise the audio starts sounding
+distorted).
+
+Tested on
 ---------
 * Raspberry Pi 1 Model B
   * Raspbian February 2015 (2015-02-16)
 
-Tested With
+Tested with
 -----------
 * [BubbleUPnP for
 Android](https://play.google.com/store/apps/details?id=com.bubblesoft.android.bubbleupnp)
 * Mac OS X 10.10 Yosemite (as sound output device)
 * [Kinsky](http://oss.linn.co.uk/trac/wiki/Kinsky)
 
-Known Issues
+Known issues
 ------------
 * AirPlay/ShairPort
   * May need to toggle speaker connection on and off, for it to
