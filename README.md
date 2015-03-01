@@ -1,4 +1,4 @@
-Raspberry Pi Network Speaker provisioner v0.0.2
+Raspberry Pi Network Speaker provisioner v0.0.3
 ==============
 
 What it is
@@ -63,6 +63,8 @@ This provisioner script automates the following guides:
 
 Changelog
 ---------
+* v0.0.3 - 2015-03-01
+  * Removed automatic volume setting
 * v0.0.2 - 2015-03-01
   * Make sure the volume is set to 80% to avoid audio popping
   * Removed unused vol command
