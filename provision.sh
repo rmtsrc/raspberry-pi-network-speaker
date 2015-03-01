@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Raspberry Pi Network Speaker provisioner v0.0.2
+# Raspberry Pi Network Speaker provisioner v0.0.3
 # https://github.com/sebflipper/raspberry-pi-network-speaker
 
 # Turns your Raspberry Pi into Network Speaker supporting Apple AirPlay and UPnP
