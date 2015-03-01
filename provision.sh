@@ -104,9 +104,5 @@ amixer cset numid=3 1
 # Make sure the volume is set to 80% to avoid audio popping
 amixer sset 'Master' 80%
 
-# Raspberry Pi Volume Control
-cp $DIR/lib/vol /usr/local/bin/vol
-chmod a+x /usr/local/bin/vol
-
 # All done! Reboot
 reboot
