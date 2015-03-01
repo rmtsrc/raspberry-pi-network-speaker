@@ -59,9 +59,6 @@ update-rc.d shairport defaults
 # Custom display name
 sed -i -e "s/DAEMON_ARGS=\"-w \$PIDFILE\"/DAEMON_ARGS=\"-w \$PIDFILE -a $DISPLAY_NAME\"/g" /etc/init.d/shairport
 
-# Make sure the volume is set to 80% to avoid audio popping
-sed -i "/echo -n \"Starting shairport: \"/a amixer sset 'Master' 80%" /etc/init.d/shairport
-
 cd ..
 
 # END AirPlay
@@ -98,9 +95,6 @@ update-rc.d gmediarenderer defaults
 
 # Custom display name
 sed -i -e "s/UPNP_DEVICE_NAME=\"Raspberry\"/UPNP_DEVICE_NAME=\"$DISPLAY_NAME\"/g" /etc/init.d/gmediarenderer
-
-# Make sure the volume is set to 80% to avoid audio popping
-sed -i "/echo \"Starting GMediaRender\"/a amixer sset 'Master' 80%" /etc/init.d/shairport
 
 # END UPnP
 
