@@ -60,7 +60,6 @@ This provisioner script automates the following guides:
 * [ShairPort](https://github.com/hendrikw82/shairport)
 * [Perl Module : Session Description Protocol](https://github.com/njh/perl-net-sdp)
 * [Headless UPnP Renderer](https://github.com/hzeller/gmrender-resurrect)
-* [CLI Raspberry Pi Volume Control](http://www.dronkert.net/rpi/vol.html)
 
 Changelog
 ---------
